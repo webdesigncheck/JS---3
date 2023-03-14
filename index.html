@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domaci 3 JS </title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+</head>
+<body>
+
+    <a href="secondpage.html"></a>
+
+
+    <div class="container" id="container1">
+        <div class="col-md-12 text-center mt-2">
+        <input id="Button1" type="button" class="btn btn-success" onclick="myFunction()" 
+        value="Click me!"></div>
+        <hr>
+        <div class="col-md-12 text-center mt-2">
+        <p id="tekst">Hi.</p>
+        <button class="btn btn-primary" onclick="changeText()" style="border-radius: 5px;">Change text</button>
+        <hr>
+        <div class="col-md-12 text-center mt-2">
+        <img id="img1" src="hello.jpg" alt="" width="20%" height="150px" onmouseover="this.src='do.jpg'"  onmouseout="this.src='hello.jpg'">
+        <hr>
+        <form>
+            <input id="Radio1" name="opcije" type="radio" value="V1">
+            <label for="Radio1">Male</label><br>
+            <input id="Radio2" name="opcije" type="radio" value="V2">
+            <label for="Radio2">Female</label><br><br>
+            <input id="Button1" type="button" class="btn btn-success" onclick="provera()"
+            value="Check selected Gender!">
+            <br><br>
+            <span id="span1"></span>
+           </form> 
+           <hr>   
+           <form>
+            <div class="mb-3">
+              <label for="fisrtname" class="form-label">First name:</label>
+              <input type="name" class="form-control" id="first-name" placeholder="Your first name">
+            </div>
+            <div class="mb-3">
+              <label for="lastname" class="form-label">Last name:</label>
+              <input type="name" class="form-control" id="last-name" placeholder="Your last name">
+            </div>
+            <div class="mb-3">
+                <label for="favouriteanimal" class="form-label">Favourite animal:</label>
+                <input type="animal" class="form-control" id="favourite-animal" placeholder="Your favourite animal">
+              </div>
+          <a href="secondpage.html">
+          <input type="button" class="btn btn-primary text-light" value="Submit" />
+          </a><br>
+          <div id="welcomeTheUsar">
+            <input id="Button1" type="button" class="btn btn-primary mt-2" onclick="welcomeTheUsar()"
+            value="Show input"><br><br>
+            <span id="span2"></span><br>
+            <span id="span3"></span><br>
+            <span id="span4"></span><br>
+        </div>
+        <!--
+            <input id="Button1" type="button" class="btn btn-primary mt-2" onclick="input()"
+            value="Show input"> -->
+          </form>     
+          <hr>   
+    </div>
+</div> 
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="kod.js"></script>
+
+
+</body>
+</html>
